@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Blog 💐</title>
+
+  <!-- estilos -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/darkmode.css">
+
+  <!-- icones -->
+  <script src="https://kit.fontawesome.com/870a34a90c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL,GRAD@400,0,0" />
+
+  <!-- fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav>
+
+    <div>
+      <a href="./pages/about.html" class="mystery-quest-regular"><i class="fa-solid fa-spiral"></i>Sobre mim</a>
+      <a href="./pages/curriculum.html" class="mystery-quest-regular"><i class="fa-solid fa-code"></i>Curriculum</a>
+      <a href="./pages/contact.html" class="mystery-quest-regular"><i class="fa-regular fa-comments"></i>Contato</a>
+      <a href="./pages/receitas.html" class="mystery-quest-regular"><i class="fa-solid fa-pizza-slice"></i>Receitas</a>
+    </div>
+
+    <div>
+      <span class="material-symbols-outlined aumentarTexto" onclick="aumentarFonte()">
+        text_increase
+      </span>
+      <span class="material-symbols-outlined textoNormal" onclick="fonteNormal()">
+        rotate_auto
+      </span>
+      <span class="material-symbols-outlined diminuirTexto" onclick="diminuirFonte()">
+        text_decrease
+      </span>
+      <span class="material-symbols-outlined mudarTema" onclick="mudarTema()">
+        dark_mode
+      </span>
+    </div>
+
+  </nav>
+
+  <main>
+
+    <div class="index_main">
+      <div class="tituloindex">
+        <p>Seja bem-vindo (a)<br>ao meu blog!</p>
+        <img src="./assets/saturn.gif" width="300px" alt="Gif de Saturno">
+      </div>
+
+      <section class="menu">
+
+        <div class="links">
+          <a href="mailto:danivnarciso@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/danielinarciso" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/dwnieli" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <div class="biscoito" onclick="gerarFrase()">
+          <p>🍪 Biscoito da sorte</p>
+        </div>
+
+      </section>
+
+      <br><br>
+      <hr>
+      <br><br>
+
+      <div class="favs">
+        <h1>Últimas Atualizações⁠</h1>
+        <div class="scrollbar">
+
+          <div class="barcontent">
+            <img src="./assets/pinkiepie5.jpeg" alt="Ícone da Pinkie Pie">
+            <h1>Adicionando funções com JavaScript!</h1>
+          </div>
+
+          <div class="barcontent">
+            <img src="./assets/pinkiepie3.jpeg" alt="Ícone da Pinkie Pie">
+            <h1>Deixando tudo bonito com CSS.</h1>
+          </div>
+
+          <div class="barcontent">
+            <img src="./assets/pinkiepie1.jpeg" alt="Ícone da Pinkie Pie">
+            <h1>Escrevendo conteúdo das páginas.</h1>
+          </div>
+
+          <div class="barcontent">
+            <img src="./assets/pinkiepie2.jpeg" alt="Ícone da Pinkie Pie">
+            <h1>Criando as primeiras páginas.</h1>
+          </div>
+
+          <div class="barcontent">
+            <img src="./assets/pinkiepie4.jpeg" alt="Ícone da Pinkie Pie">
+            <h1>Dando início ao blog!</h1>
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+      <hr>
+
+      <footer>
+        <p>Feito com ❤︎⁠ por Daniéli</p>
+      </footer>
+
+    </div>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

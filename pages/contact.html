@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <!-- estilos -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/darkmode.css">
+
+    <!-- icones -->
+    <script src="https://kit.fontawesome.com/870a34a90c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL,GRAD@400,0,0" />
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav>
+        <div>
+            <a href="../index.html"><i class="fa-regular fa-house"></i>Página inicial</a>
+            <a href="../pages/about.html"><i class="fa-solid fa-spiral"></i>Sobre mim</a>
+            <a href="../pages/curriculum.html"><i class="fa-solid fa-code"></i>Curriculum</a>
+            <a href="../pages/receitas.html"><i class="fa-solid fa-pizza-slice"></i>Receitas</a>
+        </div>
+
+        <div>
+            <span class="material-symbols-outlined aumentarTexto" onclick="aumentarFonte()">
+                text_increase
+            </span>
+            <span class="material-symbols-outlined textoNormal" onclick="fonteNormal()">
+                rotate_auto
+            </span>
+            <span class="material-symbols-outlined diminuirTexto" onclick="diminuirFonte()">
+                text_decrease
+            </span>
+            <span class="material-symbols-outlined" onclick="mudarTema()">
+                dark_mode
+            </span>
+        </div>
+
+    </nav>
+
+    <main id="voltar">
+        <div class="main">
+            <h1 class="titulo">Contato</h1>
+
+            <form id="formulario">
+                <div class="formulario">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                </div>
+                <br>
+
+                <div class="formulario">
+                    <label for="telefone">Telefone:</label>
+                    <input type="number" name="telefone" id="telefone" placeholder="(00) 0 0000-0000" required>
+                </div>
+                <br>
+
+                <div class="formulario">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+                <br>
+
+                <div class="formulario">
+                    <label for="nota">Nota para o blog:</label>
+                    <input type="range" name="nota" id="nota" min="0" max="100" required>
+                </div>
+
+                <div class="formulario">
+                    <label for="mensagem">Deixe sua mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" rows="5"
+                        placeholder="Escreva sua mensagem aqui 😸"></textarea>
+                </div>
+
+                <div class="botaoformulario">
+                    <button type="submit" onclick="enviarForm()">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+
+            <br><br>
+            <hr>
+            <footer>
+                <p>Feito com ❤︎⁠ por Daniéli</p>
+            </footer>
+
+        </div>
+    </main>
+
+    <button class="botaofixed">
+        <a href="#voltar"><i id="botaovoltar" class="fa-solid fa-angles-up"></i></a>
+    </button>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+
+    <!-- estilos -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/darkmode.css">
+
+    <!-- icones -->
+    <script src="https://kit.fontawesome.com/870a34a90c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL,GRAD@400,0,0" />
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav>
+        <div>
+            <a href="../index.html"><i class="fa-regular fa-house"></i>Página inicial</a>
+            <a href="../pages/about.html"><i class="fa-solid fa-spiral"></i>Sobre mim</a>
+            <a href="../pages/contact.html"><i class="fa-regular fa-comments"></i>Contato</a>
+            <a href="../pages/receitas.html"><i class="fa-solid fa-pizza-slice"></i>Receitas</a>
+        </div>
+
+        <div>
+            <span class="material-symbols-outlined aumentarTexto" onclick="aumentarFonte()">
+                text_increase
+            </span>
+            <span class="material-symbols-outlined textoNormal" onclick="fonteNormal()">
+                rotate_auto
+            </span>
+            <span class="material-symbols-outlined diminuirTexto" onclick="diminuirFonte()">
+                text_decrease
+            </span>
+            <span class="material-symbols-outlined" onclick="mudarTema()">
+                dark_mode
+            </span>
+        </div>
+
+    </nav>
+
+    <main id="voltar">
+        <div class="main">
+            <h1 class="titulo">Currículo</h1>
+
+            <h2>Objetivo profissional:</h2>
+            <p class="parag">Atuar na área de Tecnologia da Informação, aplicando conhecimentos técnicos e buscando
+                desenvolvimento profissional contínuo, contribuindo com soluções eficientes para os desafios da empresa.
+            </p>
+
+            <br>
+
+            <h2>Formação acadêmica:</h2>
+            <p class="parag"><b>Análise e Desenvolvimento de Sistemas: </b>Universidade de Passo Fundo (2026 -
+                atualmente / 1o
+                semestre)</p>
+            <p class="parag"><b>Ensino Médio: </b>E.E.E.B. Érico Veríssimo (concluído em 2024)</p>
+
+            <br>
+
+            <h2>Experiência profissional:</h2>
+            <br>
+            <table>
+                <tr>
+                    <td><b>Jovem Aprendiz</b></td>
+                    <td>Grupo Piracanjuba</td>
+                    <td>abr/2025 - presente</td>
+                </tr>
+                <tr>
+                    <td><b>Estágio</b></td>
+                    <td>Farmácias Glória / Associadas</td>
+                    <td>ago/2024 - jan/2025</td>
+                </tr>
+            </table>
+
+            <br>
+
+            <h2>Cursos complementares:</h2>
+            <br>
+            <table>
+                <tr>
+                    <th>Curso</th>
+                    <th>Instituição</th>
+                    <th>Concluído em</th>
+                </tr>
+                <tr>
+                    <td>Python Development</td>
+                    <td>FIAP</td>
+                    <td>mai/2026</td>
+                </tr>
+                <tr>
+                    <td>User Experience</td>
+                    <td>FIAP</td>
+                    <td>mai/2026</td>
+                </tr>
+                <tr>
+                    <td>Word e Excel avançado</td>
+                    <td>Evolua Educação</td>
+                    <td>abr/2025</td>
+                </tr>
+                <tr>
+                    <td>Rotinas administrativas</td>
+                    <td>Evolua Educação</td>
+                    <td>fev/2025</td>
+                </tr>
+            </table>
+
+            <br><br>
+            <hr>
+            <footer>
+                <p>Feito com ❤︎⁠ por Daniéli</p>
+            </footer>
+
+        </div>
+    </main>
+
+    <button class="botaofixed">
+        <a href="#voltar"><i id="botaovoltar" class="fa-solid fa-angles-up"></i></a>
+    </button>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
